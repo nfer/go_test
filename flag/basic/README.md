@@ -29,6 +29,7 @@ num value: 999
 ```
 
 According to the test output, we can get below points:
+
 1. without any flags(parameter), "number" keeps the defalut value
 2. with `--help` flag, the executable output the help message
 3. with `-number 999` or `-number=999`, "number" use the input value 999
@@ -119,5 +120,6 @@ str value: hello
 ```
 
 According to the test output, we can get below points:
+
 1. `-xx` and `--xx` work same on flag value, you can use `-xx` or `--xx` or mixed
 2. `-xx` and `--xx` work same on terminator, the PURPOSE is to stop parsing last flags after the separate `-` or `--`.
